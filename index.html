@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> HTML + CSS + DOM</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <fieldset>
+    <legend>Empresa Perfumes Latinos</legend>
+    <h2>¡Premiamos tu compromiso como Empleado del mes!</h2>
+    <h3>Ingresa los datos solicitados a continuación:</h3>
+
+    <form id="ventasForm">
+
+      <label for="vendedor">Vendedor:</label>
+      <input id="vendedor" name="vendedor" type="text" placeholder="Vendedor">
+
+      <label for="Aqua">Aqua:</label>
+      <input id="Aqua" name="Aqua" type="number" min="0" placeholder="cantidad unidades" > 
+      <label for="Emocion">Emocion:</label> 
+      <input id="Emocion" name="Emocion" type="number" min="0" placeholder="cantidad unidades" >
+      <label for="Alegria">Alegria:</label>  
+      <input id="Alegria" name="Alegria" type="number" min="0" placeholder="cantidad unidades" > 
+      <label for="Frescura">Frescura:</label> 
+      <input id="Frescura" name="Frescura" type="number" min="0" placeholder="cantidad unidades" >          
+        
+      <input type="submit" name="enviar informacion" onclick="enviarInformacion()" value="enviar informacion">
+    </form>
+  </fieldset>
+
+  <script src="./index.js"></script>
+</body>
+</html>
