@@ -15,18 +15,21 @@
     <form id="ventasForm">
 
       <label for="vendedor">Vendedor:</label>
-      <input id="vendedor" name="vendedor" type="text" placeholder="Vendedor">
+      <input id="vendedor" type="text" name="vendedor" placeholder="Vendedor" required>
 
       <label for="Aqua">Aqua:</label>
-      <input id="Aqua" name="Aqua" type="number" min="0" placeholder="cantidad unidades" > 
+      <input id="Aqua" type="number" min="0"  name="Aqua" placeholder="cantidad unidades" required> 
+
       <label for="Emocion">Emocion:</label> 
-      <input id="Emocion" name="Emocion" type="number" min="0" placeholder="cantidad unidades" >
+      <input id="Emocion" type="number" min="0" name="Emocion" placeholder="cantidad unidades" required>
+
       <label for="Alegria">Alegria:</label>  
-      <input id="Alegria" name="Alegria" type="number" min="0" placeholder="cantidad unidades" > 
+      <input id="Alegria" type="number" min="0" name="Alegria" placeholder="cantidad unidades" required > 
+
       <label for="Frescura">Frescura:</label> 
-      <input id="Frescura" name="Frescura" type="number" min="0" placeholder="cantidad unidades" >          
+      <input id="Frescura" type="number" min="0" name="Frescura" placeholder="cantidad unidades" required>          
         
-      <input type="submit" name="enviar informacion" onclick="enviarInformacion()" value="enviar informacion">
+      <input type="submit" value="enviar informacion">
     </form>
   </fieldset>
 
